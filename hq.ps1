@@ -17,6 +17,3 @@ try {
 catch {
     Write-Host "[-] Ошибка: $($_.Exception.Message)" -ForegroundColor Red
 }
-
-# Чтобы окно не закрывалось сразу (для теста)
-Start-Sleep -Seconds 5
